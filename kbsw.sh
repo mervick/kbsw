@@ -118,6 +118,7 @@ elif test $COMMAND == "LAYOUT"; then
 elif test $COMMAND == "INFO"; then
 	echo "[ `printf "'%s' " "${LAYOUTS[@]}"`]"
 	exit 1
+	
 else # show help
 	bash ${0} -h
 fi
