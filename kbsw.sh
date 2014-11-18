@@ -87,6 +87,7 @@ function getLayoutIndex {
 	echo -1
 }
 
+
 if test $COMMAND == "SWITCH"; then
 	if test $DEF_LAYOUTS -lt 2; then
 		DEF_LAYOUTS=2
@@ -103,6 +104,7 @@ if test $COMMAND == "SWITCH"; then
 	fi
 	`gsettings set org.gnome.desktop.input-sources current ${INDEX}`
 	exit 1
+	
 elif test $COMMAND == "LAYOUT"; then
 	INDEX=`getLayoutIndex "${LAYOUT}"`
 	if test $INDEX -eq -1; then
@@ -112,9 +114,8 @@ elif test $COMMAND == "LAYOUT"; then
 		`gsettings set org.gnome.desktop.input-sources current ${INDEX}`
 	fi
 	exit 1
+	
 elif test $COMMAND == "INFO"; then
-	# echo $((${LAYOUTS}))
-
 	echo "[ `printf "'%s' " "${LAYOUTS[@]}"`]"
 	exit 1
 else # show help
