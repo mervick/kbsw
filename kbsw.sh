@@ -97,7 +97,7 @@ if test $COMMAND == "SWITCH"; then
 	fi
 
 	INDEX=`getLayoutIndex "${CURRENT_LAYOUT}"`
-	if [ ${INDEX} -eq $((${DEF_LAYOUTS}-1)) ] || [ ${INDEX} -gt $((${DEF_LAYOUTS}-1)) ]; then
+	if test $INDEX -ge $((${DEF_LAYOUTS}-1)); then
 		INDEX=0
 	else
 		INDEX=$((${INDEX}+1))
