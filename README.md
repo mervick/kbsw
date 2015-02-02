@@ -3,28 +3,28 @@ kbsw
 
 Gnome simple keyboard switcher. Change the keyboard layout easily.
 
-Install:
---------
+### Install
+
 After downloading file kbsw.sh make him exacutable:
 ```
 chmod +x /path/to/file/kbsw.sh
 ```
 
-Usage:
-------
+### Usage
+
 ```
 kbsw [options]
 ```
-Options:
---------
+### Options
+
 ```
 -h, --help          - Show this help
 -l, --layout=NAME   - Sets keyboard layout
 -s, --switch[=NUM]  - Switches keyboard layouts
 --show-layouts      - Display all available keyboard layouts
 ```
-License:
---------
+### License
+
 LGPLv2
 
 
