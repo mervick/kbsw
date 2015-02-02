@@ -26,7 +26,6 @@ Options:
 ```
 License:
 --------
-License: LGPL 2, 
-Author: Andrey Izman <izman@li.ru>.
+LGPLv2
 
 
