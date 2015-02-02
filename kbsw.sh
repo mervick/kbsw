@@ -16,7 +16,7 @@ while test $# -gt 0; do
 			echo "  -s, --switch[=NUM]  - Switches keyboard layouts"
 			echo "  --show-layouts      - Display all available keyboard layouts"
 			echo " "
-			echo "Author: Andrey Izman <izman@li.ru>"
+			echo "Author: Andrey Izman <izman.dev@gmail.com>"
 			echo "License: LGPL 2"
 			exit 1
 			;;
