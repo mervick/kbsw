@@ -1,8 +1,7 @@
 kbsw
 ====
 
-Gnome simple keyboard switcher.  
-Change the keyboard layout easily.
+Gnome simple keyboard switcher. Change the keyboard layout easily.
 
 Install:
 --------
