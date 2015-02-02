@@ -15,7 +15,7 @@ chmod +x /path/to/file/kbsw.sh
 ```
 kbsw [options]
 ```
-### Options
+Options:
 
 ```
 -h, --help          - Show this help
