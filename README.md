@@ -23,7 +23,7 @@ Options:
 -s, --switch[=NUM]  - Switches keyboard layouts
 --show-layouts      - Display all available keyboard layouts
 ```
-### License
+## License
 
 LGPLv2
 
