@@ -1,4 +1,5 @@
 # KBSW - Переключатель языков для линукс дистрибутивов с консоли
+[![Analytics](https://ga-beacon.appspot.com/UA-65295275-1/kbsw)](https://github.com/igrigorik/ga-beacon)
 
 Simple keyboard switcher. Make the change a keyboard layout easy from the shell.  
 С помощью данной утилиты возможно установить переключение лайота клавиатуры на желаемый язык из консоли. Также с помощью штатных средств ОС возможна установка хоткеев для переключения язков.
