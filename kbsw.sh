@@ -11,7 +11,7 @@ while test $# -gt 0; do
             echo "kbsw - keyboard layout switcher for Gnome"
             echo " "
             echo "Usage: "
-            echo "  kbsw [-h] [-l NAME] [-s [NUM]] [--layouts]"
+            echo "  kbsw [-h] [-l NAME] [-s [LAYOUTS]] [--layouts]"
             echo "Options: "
             echo "  -h, --help                         Show this help"
             echo "  -l NAME, --layout=NAME             Set keyboard layout"
